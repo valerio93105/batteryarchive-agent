@@ -2,9 +2,7 @@
 
 # For a production example please refer to the https://github.com/battery-lcf repository on GitHub.
 
-version: "0.1"
+version: "0.2"
 environment:
 
   STYLE: 'unix'
-  PLOT: False
-  SAVE: True
