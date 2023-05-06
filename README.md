@@ -15,7 +15,13 @@ The batteryarchive agent needs
 2. python3 and pip3 
 3. The latest version of Docker and Docker-compose
 
-*If you don't have access to a Linux machine, you can set up a virtual machine on AWS, Google Cloud, or Digital Ocean. See https://github.com/battery-lcf/batteryarchive-agent/blob/dc93a5fe2237856219eea483387be52d5916025b/creating%20a%20linux%20virtual%20machine.pdf
+If you use ubuntu, you can run:
+
+apt update
+apt install docker-compose
+apt install docker.io
+systemctl enable --now docker
+apt install python3-pip
 
 ## Installation steps
 
