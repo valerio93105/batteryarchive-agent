@@ -17,11 +17,11 @@ The batteryarchive agent needs
 
 If you use ubuntu, you can run:
 
-apt update
-apt install docker-compose
-apt install docker.io
-systemctl enable --now docker
-apt install python3-pip
+1. apt update
+2. apt install docker-compose
+3. apt install docker.io
+4. systemctl enable --now docker
+5. apt install python3-pip
 
 ## Installation steps
 
